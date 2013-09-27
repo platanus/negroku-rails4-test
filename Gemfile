@@ -7,6 +7,7 @@ gem 'capistrano', github: 'capistrano/capistrano', branch: 'v3'
 gem 'capistrano-rails', github: "capistrano/rails"
 gem 'capistrano-bundler', github: 'capistrano/bundler'
 gem 'capistrano-rbenv', github: "capistrano/rbenv"
+gem 'negroku', '2.0.0.pre1'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
