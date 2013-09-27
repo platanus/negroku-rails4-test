@@ -4,7 +4,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 gem 'capistrano', github: 'capistrano/capistrano', branch: 'v3'
-gem 'capistrano-rails'
+gem 'capistrano-rails', github: "capistrano/rails"
+gem 'capistrano-bundler', github: 'capistrano/bundler'
+gem 'capistrano-rbenv', github: "capistrano/rbenv"
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'

@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/capistrano/bundler.git
+  revision: c6443d5c555dadde51838f00cbdb7b730993de55
+  specs:
+    capistrano-bundler (0.0.1)
+      capistrano (>= 3.0.0.pre)
+
+GIT
   remote: git://github.com/capistrano/capistrano.git
   revision: 78eb033290f79131a94b8a8cc74929cef41c3243
   branch: v3
@@ -7,6 +14,20 @@ GIT
       i18n
       rake (>= 10.0.0)
       sshkit (>= 0.0.23)
+
+GIT
+  remote: git://github.com/capistrano/rails.git
+  revision: f217271f246563cb823b2df6d47e34094f14c1cd
+  specs:
+    capistrano-rails (0.0.7)
+      capistrano
+
+GIT
+  remote: git://github.com/capistrano/rbenv.git
+  revision: 8326795409e262b33c5e2f2ff5943a2bee0e93c8
+  specs:
+    capistrano-rbenv (0.0.1)
+      capistrano
 
 GEM
   remote: https://rubygems.org/
@@ -38,8 +59,6 @@ GEM
     arel (4.0.0)
     atomic (1.1.14)
     builder (3.1.4)
-    capistrano-rails (0.0.7)
-      capistrano
     coffee-rails (4.0.0)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0.beta, < 5.0)
@@ -131,7 +150,9 @@ PLATFORMS
 
 DEPENDENCIES
   capistrano!
-  capistrano-rails
+  capistrano-bundler!
+  capistrano-rails!
+  capistrano-rbenv!
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
