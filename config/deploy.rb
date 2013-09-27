@@ -1,5 +1,5 @@
-set :application, 'my app name'
-set :repo_url, 'git@github.com:platanus/platanus-nest.git'
+set :application, 'negroku-railt4-test'
+set :repo_url, 'git@github.com:platanus/negroku-rails4-test.git'
 
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
