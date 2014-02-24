@@ -4,11 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 group :development do
-  gem 'capistrano', github: 'capistrano/capistrano', branch: 'v3'
-  gem 'capistrano-rails', github: "capistrano/rails"
-  gem 'capistrano-bundler', github: 'capistrano/bundler'
-  gem 'capistrano-rbenv', github: "capistrano/rbenv"
-  gem 'negroku', '2.0.0.pre1'
+  gem 'negroku', :path =>'~/src/negroku/src'
 end
 
 # Use sqlite3 as the database for Active Record
@@ -24,7 +20,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
