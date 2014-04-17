@@ -5,7 +5,6 @@ gem 'rails', '4.0.0'
 
 group :development do
   gem 'negroku', :path =>'~/src/negroku/src'
-  gem 'capistrano-eye', :path =>'~/src/capistrano-eye'
 end
 
 # Use sqlite3 as the database for Active Record

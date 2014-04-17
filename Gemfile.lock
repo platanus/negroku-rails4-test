@@ -1,10 +1,4 @@
 PATH
-  remote: ~/src/capistrano-eye
-  specs:
-    capistrano-eye (0.0.1)
-      capistrano (>= 3.0.0)
-
-PATH
   remote: ~/src/negroku/src
   specs:
     negroku (2.0.0.pre1)
@@ -196,7 +190,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  capistrano-eye!
   coffee-rails (~> 4.0.0)
   eye
   jbuilder (~> 1.2)
